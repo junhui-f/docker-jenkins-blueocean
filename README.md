@@ -5,7 +5,7 @@
 ## Usage
 From Command Line
 ```
-$ docker pull ghcr.io/junhui-f/ docker-jenkins-blueocean:main
+$ docker pull ghcr.io/junhui-f/docker-jenkins-blueocean:main
 ```
 
 From Docker Compose
