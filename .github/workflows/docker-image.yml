@@ -1,6 +1,7 @@
 name: Jenkins-Blueocean CI
 
 on:
+  workflow_dispatch:
   push:
     branches: ['main']
 
