@@ -1,7 +1,7 @@
 #https://www.jenkins.io/doc/book/installing/docker/
 #https://hub.docker.com/r/jenkins/jenkins
 
-FROM jenkins/jenkins:lts-alpine-jdk17
+FROM jenkins/jenkins:lts-jdk11
 USER root
 RUN apt-get update && apt-get install -y lsb-release --no-install-recommends
 RUN mkdir -p /etc/apt/keyrings
