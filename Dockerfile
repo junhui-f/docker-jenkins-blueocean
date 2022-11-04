@@ -13,5 +13,5 @@ RUN apt-get update && apt-get install -y docker-ce-cli --no-install-recommends &
 
 USER jenkins
 ARG BLUEOCEAN_VERSION=1.25.8
-ARG DOCKERPIPELINE_VERSION=521.v1a_a_dd2073b_2e
+ARG DOCKERPIPELINE_VERSION=528.v7c193a_0b_e67c
 RUN jenkins-plugin-cli --plugins "blueocean:${BLUEOCEAN_VERSION} docker-workflow:${DOCKERPIPELINE_VERSION}"
